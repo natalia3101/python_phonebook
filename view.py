@@ -2,7 +2,7 @@ def greeting():
     print("Welcome to our app!")
 
 def menu():
-    print("Menu")
+    print("The phonebook\n********************\n**Choose an option**\n 1. Open the phonebook\n 2. Add a record\n 3. Search\n 4. Change a record\n 5. Delete a record\n 6. Close the program\n")
 
 def show_phonebook(date):
-    return None
+    return None #тут что-то надо написать
