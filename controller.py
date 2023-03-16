@@ -7,8 +7,8 @@ def run():
         view.menu()
         answer = input("Option: ")
         if answer == '1':
-            date = model.read_phonebook()
-            view.show_phonebook(date)
+            data = model.read_phonebook()
+            view.show_phonebook(data)
         elif answer == '2':
             model.add_contact()
         elif answer == '3':
